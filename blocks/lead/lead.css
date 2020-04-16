@@ -1,0 +1,45 @@
+.lead {
+  margin: 56px 148px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lead__title {
+  width: 720px;
+  margin: 0px auto;
+  padding: 0;
+  font-size: 96px;
+  line-height: 1.04;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+}
+
+.lead__subtitle {
+  width: 640px;
+  margin: 32px auto 64px;
+  padding: 0;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+}
+
+.lead__image {
+max-width: 984px;
+max-height: 615px;
+background-image: url(../../images/lead-polka.jpg);
+background-size: cover;
+}
+
+.lead__capture {
+  margin-top: 8px;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.15em;
+  font-weight: normal;
+  color: #fff;
+  text-transform: uppercase;
+}
