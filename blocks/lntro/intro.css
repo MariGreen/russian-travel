@@ -1,0 +1,44 @@
+.intro {
+  max-width: calc(100% - 148px*2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #fff;
+  }
+
+.intro__title {
+  width: 690px;
+  margin: 92px 0px 40px 148px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+
+}
+
+.intro__text {
+  width: 690px;
+  margin:0px 0px 32px 148px;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.62;
+
+}
+
+.intro__list {
+  margin: 0px 0px 0px 148px;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.intro__list_normal {
+  margin: 0;
+  font-weight: normal;
+}
