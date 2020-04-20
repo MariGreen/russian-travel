@@ -1,36 +1,14 @@
+@import url(./__logo/header__logo.css);
+@import url(./__lang-list/header__lang-list.css);
+@import url(./__lang-link/header__lang-link.css);
+
 .header {
   display: flex;
   max-width: calc(100% - 48px*2);
   margin: 0px auto;
   padding-top: 28px;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
-.header__lang-list {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
-.header__lang-link {
-  color: #fff;
-  margin-right: 18px;
-  text-decoration-line: underline;
-  text-underline-position: under;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 1.17;
-}
-
-.header__lang-link:last-of-type {
-  margin-right: 0;
-  text-decoration: none;
-}
-
-.header__lang-link:hover {
-  opacity: 0.8;
-  transition: all 1s ease;
-}

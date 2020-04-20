@@ -1,3 +1,7 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__suptitle.css);
+@import url(./__overlay/cover__overlay.css);
+
 .cover {
   max-width: calc(100% - 48px*2);
   height: 740px;
@@ -8,11 +12,6 @@
   align-items: center;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
-}
-
-.cover__overlay {
-  max-width: calc(100% - 48px*2);
-  max-height: 740px;
 }
 
 .cover:before{
@@ -31,34 +30,8 @@
   transition: all 1s ease;
 }
 
-.cover__text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
 
-.cover__title {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
-  text-align: center;
-  color: #fffdfd;
-  margin: 0px auto 32px;
-  max-width: 560px;
-  text-decoration: none;
-}
 
-.cover__subtitle {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.22;
-  text-align: center;
-  color: #fff;
-  margin: 0 auto;
-  max-width: 360px;
-}
+
+
 

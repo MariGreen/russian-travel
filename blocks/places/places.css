@@ -1,3 +1,12 @@
+@import url(../place/place.css);
+@import url(../place/__title/place__title.css);
+@import url(../place/__image/place__image.css);
+@import url(../place/__website/place__website.css);
+@import url(../place/__url-heading/place__url-heading.css);
+@import url(../place/__link/place__link.css);
+@import url(../place/__text/place__text.css);
+@import url(../place/__paragraph/place__paragraph.css);
+
 .places {
   max-width: 984px;
   display: flex;
@@ -5,76 +14,15 @@
   margin: 0 auto;  
 }
 
-.place {
-  margin: 0px 0px 80px;
-  display: grid;
-  grid-template-columns: 460px 1fr;
-  grid-column-gap: 40px;
-  grid-auto-rows: minmax(min-content, max-content);
-  grid-row-gap: 48px;
-  grid-template-areas:
-  "title website"
-  "image text";
-}
 
-.place__title {
-  margin: 0;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
-  color: #fff;
-}
 
-.place__website {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  justify-self: left;
-  align-self: flex-end;  
-}
 
-.place__url-heading {
-  margin: 0px 0px 12px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.7;
-  color: #aaa;
-  letter-spacing: 0.2em;  
-}
 
-.place__link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.22;
-  color: #fff;
-  text-decoration-line: underline;
-  text-underline-position: under;
-  padding-bottom: 6%;
-  }
 
-.place__link:hover {
-  opacity: 0.8;
-} 
 
-.place__image {
-  width: 100%;
-  height: auto;
-}
 
-.place__paragraph {
-  height: auto;
-  margin: 0px 0px 24px 0px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.67;
-  color: #fff;
-}
 
-.place__paragraph:last-child {
-  margin: 0;
-}
+
+
+
+
