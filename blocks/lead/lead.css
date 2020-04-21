@@ -11,6 +11,18 @@
   align-items: center;
 }
 
+@media screen and (min-width: 1024px) {
+.lead {
+  max-width: calc(100% - 48px*2);
+  }
+}
+
+@media screen and (min-width: 768px) {
+.lead {
+  max-width: 100%;
+  }
+  }
+
 
 
 

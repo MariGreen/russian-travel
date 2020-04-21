@@ -4,7 +4,6 @@
 
 .cover {
   max-width: calc(100% - 48px*2);
-  height: 740px;
   margin: auto;
   position: relative;
   display: flex;
@@ -12,6 +11,7 @@
   align-items: center;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
+  padding-bottom: 62.5%;
 }
 
 .cover:before{
@@ -29,6 +29,13 @@
   opacity: 0.8;
   transition: all 1s ease;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+    }
+  }
+
 
 
 

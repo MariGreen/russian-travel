@@ -1,6 +1,8 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-list/header__lang-list.css);
+@import url(./__list-item/header__list-item.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_underline/header__lang-link_underline.css);
 
 .header {
   display: flex;
@@ -11,4 +13,9 @@
   align-items: center;
 }
 
-
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: calc(100% - 24px*2);
+    padding-top: 24px;
+    }
+  }

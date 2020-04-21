@@ -4,5 +4,12 @@
   margin: 0;
   display: grid;
   justify-self: left;
-  align-self: flex-end;  
+  align-self: flex-end;
+  transform: translateY(-9px);  
 }
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    transform: none;
+    }
+  }
