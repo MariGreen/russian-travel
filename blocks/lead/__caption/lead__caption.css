@@ -1,5 +1,5 @@
 .lead__capture {
-  margin: 8px 0px 0px;
+  margin: 8px 0px 0px; 
   align-self: start;
   font-size: 10px;
   line-height: 1.4;
@@ -9,8 +9,15 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .lead__capture {
-    margin: 8px 0px 0px 24px;
+    margin-left: 24px;
     }
-  }
+  } 
+
+
+@media screen and (max-width: 767px) {
+  .lead__capture {
+    margin-left: 16px;
+    }
+  } 

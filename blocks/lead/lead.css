@@ -11,17 +11,18 @@
   align-items: center;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1279px) {
 .lead {
   max-width: calc(100% - 48px*2);
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1023px) {
 .lead {
   max-width: 100%;
   }
-  }
+}
+
 
 
 
