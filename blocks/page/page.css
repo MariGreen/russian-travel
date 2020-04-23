@@ -1,7 +1,7 @@
 .page {
   min-width: 319px;
   margin: 0 auto;
-  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-family: 'Inter', /*'Arial', 'Helvetica',*/ cursive;
   background-color: #2a2c2f;
   margin: 0;
   padding: 0;
