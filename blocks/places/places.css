@@ -8,7 +8,7 @@
 @import url(../place/__paragraph/place__paragraph.css);
 
 .places {
-  max-width: calc(100% - 148px*2);
+  max-width: 984px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;  
@@ -16,17 +16,17 @@
 
 @media screen and (max-width: 1279px) {
   .places {
-    max-width: calc(100% - 48px*2);
+    max-width: 928px;
     }
   }
 
 @media screen and (max-width: 1023px) {
   .places {
-    max-width: calc(100% - 24px*2);
+    max-width: 93.75%;
     }
-  }
+  }  
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .places {
     max-width: 100%;
     }

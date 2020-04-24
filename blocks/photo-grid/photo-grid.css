@@ -1,7 +1,8 @@
 @import url(./__item/photo-grid__item.css);
 
 .photo-grid {
-  max-width: calc(100% - 48px*2);
+  width: calc(100% - 48px*2);
+  max-width: 1184px;
   display: grid;
   margin: 0 auto ;
   padding: 92px 0;
@@ -18,7 +19,7 @@
 
 @media screen and (max-width: 1023px) {
   .photo-grid {
-    max-width: calc(100% - 24px*2);
+    width: calc(100% - 24px*2);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 16px 16px;
     padding: 86px 0;
@@ -27,7 +28,7 @@
 
 @media screen and (max-width: 767px) {
   .photo-grid {
-    max-width: calc(100% - 16px*2);
+    width: calc(100% - 16px*2);
     grid-template-columns: 1fr;
     grid-gap: 12px;
     padding: 64px 0;
