@@ -1,6 +1,7 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__overlay/cover__overlay.css);
+@import url(./__background/cover__background.css);
 
 .cover {
   width: calc(100% - 48px*2);
@@ -11,25 +12,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  padding-bottom: 62.5%;
+  
 }
 
 .cover:before{
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;  
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;  
   background:  #2A2C2F;
   opacity: 0.3;  
 }
 
 .cover:hover:before {
   opacity: 0.8;
-  transition: all 1s ease;*/
+  transition: all 1s ease;
 }
 
 @media screen and (max-width: 1279px) {
